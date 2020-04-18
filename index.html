@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
   <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <title>Welcome to peng-yu's blog</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,6 +13,7 @@
           color: saddlebrown;
           background-color: #FFFFBB }
      p1{border-style:double;}
+
     </style>
     <h1 style="text-align: center;"><u>ܣ PENG YU ܣ</u></h1>
   </head>
@@ -29,9 +31,13 @@
        <marquee behavior="alternate">Welcome to peng-yu's blog!!!</marquee>
     <p align="center"><img src="https://github.com/peng-yu1007/peng-yu1007.github.io/blob/master/img/S__59031635.jpg?raw=true"width="739" height="554"></p>
     </div>
-    <p>
-      <marquee behavior="alternate">Hi!Hi!Hiiiiii!!!</marquee>
-    </p>
+    <script language="javascript">
+       function ShowMeDate() {
+　     var Today=new Date();
+　     alert("今天日期是 " + Today.getFullYear()+ " 年 " + (Today.getMonth()+1) + " 月 " +Today.getDate()        + " 日");
+  }
+    </script>
+    <button onclick="ShowMeDate()">點我看日期!</button>
 
   </body>
   
